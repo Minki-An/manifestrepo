@@ -8,4 +8,5 @@ resources:
 - ../../base
 patchesStrategicMerge:
 - myapp-deployment-patch.yaml
+- myapp-service-patch.yaml
 
