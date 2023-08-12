@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: <AWS 계정 ID>.dkr.ecr.ap-northeast-2.amazonaws.com/my-app:c7edd698
+          image: 138778713921.dkr.ecr.ap-northeast-2.amazonaws.com/my-app:c7edd698
           imagePullPolicy: Always
           ports:
             - containerPort: 9000
