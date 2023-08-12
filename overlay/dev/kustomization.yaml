@@ -3,10 +3,9 @@ kind: Kustomization
 images:
 - name: 138778713921.dkr.ecr.ap-northeast-2.amazonaws.com/my-app
   newName: 138778713921.dkr.ecr.ap-northeast-2.amazonaws.com/my-app
-  newTag: 665f2f2b
+  newTag: 2ef2e3a0
 resources:
 - ../../base
 patchesStrategicMerge:
 - myapp-deployment-patch.yaml
 - myapp-service-patch.yaml
-
